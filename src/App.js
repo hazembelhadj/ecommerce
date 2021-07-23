@@ -1,7 +1,10 @@
 //jdbiusbcis
+import React , {useState} from 'react';
+import data from "./data.json";
+import Products from "./components/Products";
 
-
-function App() {
+const App = () => {
+  const[products , setProducts] = useState (data.products)
   return (
     <div className="grid-container">
     <header>
@@ -10,11 +13,9 @@ function App() {
     <main>
       <div className="content">
         <div className="main">
-          
+          <Products products={products}></Products>
         </div>
-        <div className="sidebar">
-          <Cart />
-        </div>
+        <div className="sidebar">Cart Items</div>
       </div>
     </main>
     <footer>All right is reserved.</footer>
