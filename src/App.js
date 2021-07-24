@@ -13,7 +13,7 @@ function App() {
           
         </div>
         <div className="sidebar">
-          
+          <Cart />
         </div>
       </div>
     </main>
