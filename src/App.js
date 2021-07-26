@@ -1,4 +1,7 @@
 //jdbiusbcis
+import React from 'react';
+import Filter from "./components/Filter";
+import Products from "./components/Products";
 
 
 function App() {
@@ -10,7 +13,8 @@ function App() {
     <main>
       <div className="content">
         <div className="main">
-          
+          <Filter />
+          <Products />
         </div>
         <div className="sidebar">
           
