@@ -32,11 +32,11 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ff8000;
+  color: #cd4f71;
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #000000;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -51,7 +51,7 @@ main {
 }
 footer {
   grid-area: footer;
-  background-color: #203040;
+  background-color: #000000;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -63,7 +63,7 @@ footer {
   flex-wrap: wrap;
 }
 .main {
-  flex: 3 60rem;
+  flex: 3 50rem;
 }
 .sidebar {
   flex: 1 20rem;
@@ -94,6 +94,18 @@ footer {
   max-width: 37rem;
   max-height: 37rem;
 }
+.product a {
+  text-decoration: none;
+
+
+}
+
+.product a:hover {
+  color:#cd4f71
+
+}
+
+
 .product-price {
   display: flex;
   justify-content: space-between;
@@ -117,5 +129,5 @@ footer {
   border: 0.1rem #808080 solid;
 }
 .button.primary {
-  background-color: #f0c040;
+  background-color: #cd4f71;
 }
